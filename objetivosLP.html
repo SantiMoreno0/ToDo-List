@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <!-- Styling -->
+    <link rel="stylesheet" href="./css/styleLP.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/bases.css">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/e0435b78d4.js" crossorigin="anonymous"></script>
+    <title>Planificador de objetivos</title>
+</head>
+<body>
+    <header>
+        <h1 class="saludo">Hola Santi, estos son tus objetivos a largo plazo</h1>
+    </header>
+    <main>
+            <form class="seccionAñadir" action="">
+                <input type="text" placeholder="Añade un objetivo" class="input">
+                <input type="submit" value="+" class="btn-enviar">
+            </form>
+        <div class="objetivos">
+            <div class="objetivos-seccion">
+                <div class="objetivosSuperior">
+                    <h3 class="tituloSeccion">Objetivos Largo Plazo</h3>
+                </div>
+                <ul class="lista"> 
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/service.js"></script>
+</body>
+</html>
